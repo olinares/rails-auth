@@ -28,7 +28,7 @@ feature 'Homepage' do
   end
 
   scenario 'User can login with registered email and password' do
-    pending
+    
     email_address = 'email@example.com'
     password = 'password'
     welcome_message = "Welcome to the library #{email_address}"
