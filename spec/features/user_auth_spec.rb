@@ -14,7 +14,6 @@ feature 'Homepage' do
   end
 
   scenario 'User can logout' do
-    pending
     email_address = 'email@example.com'
     welcome_message = "Welcome to the library #{email_address}"
     visit '/'
